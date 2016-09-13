@@ -1,8 +1,6 @@
 #export http_proxy=http://web-proxy.fc.hp.com:8080
 #export https_proxy=http://web-proxy.fc.hp.com:8080
 
-cd ~/workspace/IdeaFactoryWebsite-Vagrant/
-
 git pull
 
 env=~/.ssh/agent.env
