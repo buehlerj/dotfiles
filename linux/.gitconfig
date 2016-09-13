@@ -48,3 +48,5 @@
         lu = ls-files --others --exclude-standard
 [color]
         ui = auto
+[core]
+		autocrlf = true
