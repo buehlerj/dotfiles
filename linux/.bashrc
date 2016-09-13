@@ -55,9 +55,9 @@ fi
 # to paste the proper path after ssh-add
 if ! agent_is_running; then
     agent_start
-    ssh-add
+    ssh-add ~/.ssh/id_rsa
 elif ! agent_has_keys; then
-    ssh-add
+    ssh-add ~/.ssh/id_rsa
 fi
 
 unset env
