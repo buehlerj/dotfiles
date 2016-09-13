@@ -1,8 +1,3 @@
-#export http_proxy=http://web-proxy.fc.hp.com:8080
-#export https_proxy=http://web-proxy.fc.hp.com:8080
-
-git pull
-
 env=~/.ssh/agent.env
 
 alias ls='ls --color'
@@ -66,3 +61,4 @@ elif ! agent_has_keys; then
 fi
 
 unset env
+
