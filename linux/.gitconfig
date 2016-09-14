@@ -49,4 +49,4 @@
 [color]
         ui = auto
 [core]
-		autocrlf = true
+	autocrlf = true
