@@ -17,6 +17,7 @@
         b = branch
         br = branch -a
         bd = branch -d
+	bmm = branch --merged master
 
         # Checkout
         ch = checkout
