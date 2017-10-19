@@ -31,6 +31,10 @@
         # Merge
         mm = merge master
 
+        # Fetch
+        f = fetch
+        prune = fetch origin --prune
+
         # Show logs
         l = log --oneline --decorate --graph
         l2 = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
@@ -50,4 +54,4 @@
 [color]
         ui = auto
 [core]
-	autocrlf = true
+        autocrlf = true
