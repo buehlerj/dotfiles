@@ -33,7 +33,7 @@
 
         # Fetch
         f = fetch
-        prune = remote prune origin
+        pru = remote prune origin
 
         # Show logs
         l = log --oneline --decorate --graph
