@@ -10,7 +10,7 @@
         s = status
 
         # Commit
-        cm = commit -m
+        com = commit -m
         cam = commit -am
 
         # Show branches
