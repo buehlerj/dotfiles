@@ -1,0 +1,111 @@
+@-moz-document domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("app.zenhub.com"), regexp("^https?://((gist|guides|help|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+/* Custom Styles */
+.container,
+.container-lg,
+.js-comment-container {
+    width: calc(100% - 120px);
+    max-width: inherit;
+}
+
+.js-quote-selection-container,
+.discussion-timeline {
+    width: calc(100% - 250px);
+}
+
+.timeline-new-comment {
+    width: 100%;
+    max-width: inherit;
+}
+
+/* Custom ZenHub Styles */
+.zhc-tobar,
+.zhc-add-comment,
+.zhc-edit-comment__textarea,
+.zhc-search-bar__input,
+.zhc-comment,
+.zhc-topbar,
+.zh-epic-creator-buttons-container,
+.zh-epic-pipelines-picker,
+.zh-epic-creator-picker-container,
+.zh-epic-creator-content,
+.zh-epic-creator-top,
+.zh-issue-comment-textarea,
+#zh-repo-filter-webapp-select > option {
+    background-color: #111111 !important;
+}
+
+.zhc-pr-issue-connector {
+    background-color: #202020;
+}
+
+.zhc-selection-button__container,
+.zhu-color-text,
+.zhc-issue-meta__username,
+.zhc-add-comment__username,
+.zhc-edit-comment__textarea,
+.zhc-edit-issue__title-input,
+.zhc-comment__username,
+.zhc-btn__content,
+.zhc-sidebar-selector-button__container,
+.zhc-sidebar-pipeline-selector__label,
+.zhc-sidebar-pipeline-selector__button__header__name,
+.zhc-topbar,
+.zhc-selection-filter__input,
+.zh-epic-creator-content,
+.zh-epic-creator-top,
+.zh-epic-creator-tab,
+.zh-issue-comment-textarea,
+.zh-epic-issue-list-item-title-link,
+#zh-repo-filter-webapp-select,
+#zh-epic-creator-selection {
+    color: #d4d4d4 !important;
+}
+
+.zhc-issue-description {
+    border: 1px solid gray;
+    padding: 3px 12px 0;
+    background-color: #111111;
+    color: white;
+}
+
+.zhc-pipeline--add-placeholder {
+    width: 20px !important;
+    transition: 300ms width linear;
+}
+
+.zhc-pipeline--add-placeholder:hover {
+    width: 262px !important;
+}
+
+.zhc-edit-comment__textarea {
+    height: 600px;
+}
+
+.zhc-issue-card__actions__btn {
+    background-color: green !important;
+    transition: 300ms background-color linear;
+}
+
+.zhc-issue-card__actions__btn:hover {
+    background-color: #015f00 !important;
+}
+
+.zhc-username {
+    color: #9a34e5;
+}
+
+.zhc-issue-card__connected-pull-request {
+    background-color: #061e22 !important;
+}
+
+
+.zhc-selection-list-item:hover {
+    background-color: #9a34e5 !important;
+    color: white;
+}
+
+.post-merge-message > .btn {
+    background: #ff7300 !important;
+    color: #fefefe;
+}
+}
