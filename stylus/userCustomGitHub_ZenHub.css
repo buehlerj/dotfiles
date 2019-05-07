@@ -65,6 +65,11 @@
     color: #d4d4d4 !important;
 }
 
+.zhc-new-issue-body__title-input {
+    background-color: #111111;
+    color: #d4d4d4;
+}
+
 .zhc-issue-description {
     border: 1px solid gray;
     padding: 3px 12px 0;
