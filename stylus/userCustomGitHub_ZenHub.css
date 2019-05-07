@@ -1,5 +1,5 @@
 @-moz-document domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("app.zenhub.com"), regexp("^https?://((gist|guides|help|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
-/* Custom Styles */
+/* GitHub Styles */
 .container,
 .container-lg,
 .js-comment-container {
@@ -15,6 +15,10 @@
 .timeline-new-comment {
     width: 100%;
     max-width: inherit;
+}
+
+.h-card, col-2, float-left, pr-3 {
+    width: 244px;
 }
 
 /* Custom ZenHub Styles */
