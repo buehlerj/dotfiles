@@ -17,7 +17,10 @@
     max-width: inherit;
 }
 
-.h-card, col-2, float-left, pr-3 {
+.h-card,
+col-2,
+float-left,
+pr-3 {
     width: 244px;
 }
 
@@ -34,6 +37,8 @@
 .zh-epic-creator-content,
 .zh-epic-creator-top,
 .zh-issue-comment-textarea,
+.zhc-issue-page,
+.zhc-info-alert,
 #zh-repo-filter-webapp-select > option {
     background-color: #111111 !important;
 }
@@ -65,11 +70,6 @@
     color: #d4d4d4 !important;
 }
 
-.zhc-new-issue-body__title-input {
-    background-color: #111111;
-    color: #d4d4d4;
-}
-
 .zhc-issue-description {
     border: 1px solid gray;
     padding: 3px 12px 0;
@@ -88,6 +88,10 @@
 
 .zhc-edit-comment__textarea {
     height: 600px;
+}
+
+.zhc-issue-page {
+    padding: 32px;
 }
 
 .zhc-issue-card__actions__btn {
@@ -114,7 +118,13 @@
 }
 
 .post-merge-message > .btn {
-    background: #ff7300 !important;
     color: #fefefe;
+    background: #ff7300 !important;
+}
+
+.zhc-icon--pull-request {
+    background-color: #e2b042;
+    border-radius: 24px;
+    padding: 10px 22px;
 }
 }
