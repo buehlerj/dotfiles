@@ -12,7 +12,9 @@
     width: calc(100% - 250px);
 }
 
-.timeline-new-comment {
+.timeline-new-comment,
+.zh-workspace__content,
+.zhc-issue-page {
     width: 100%;
     max-width: inherit;
 }
@@ -68,6 +70,11 @@ pr-3 {
 #zh-repo-filter-webapp-select,
 #zh-epic-creator-selection {
     color: #d4d4d4 !important;
+}
+
+.zh-workspace__container,
+.zhu-flex--column {
+    overflow: hidden;
 }
 
 .zhc-issue-description {
