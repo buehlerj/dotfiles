@@ -67,6 +67,9 @@ pr-3 {
 .zh-epic-creator-tab,
 .zh-issue-comment-textarea,
 .zh-epic-issue-list-item-title-link,
+.zhc-search__input,
+.zhc-sidebar-nav-item__label,
+.zhc-issues-list-item__row__cell > a,
 #zh-repo-filter-webapp-select,
 #zh-epic-creator-selection {
     color: #d4d4d4 !important;
@@ -133,5 +136,9 @@ pr-3 {
     background-color: #e2b042;
     border-radius: 24px;
     padding: 10px 22px;
+}
+
+.zhc-search__input {
+    border: 1px solid #555 !important;
 }
 }
