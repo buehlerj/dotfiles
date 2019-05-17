@@ -17,6 +17,8 @@ alias vh='vagrant halt'
 alias vp='vagrant provision'
 alias hostfile='edit_hostfile'
 alias gi='grep -i'
+alias gmmd="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\" | xargs git branch --delete; git remote prune origin"
+alias gmmp="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\""
 
 # Note: Don't bother checking SSH_AGENT_PID. It's not used
 #       by SSH itself, and it might even be incorrect
