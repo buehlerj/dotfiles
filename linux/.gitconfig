@@ -44,6 +44,7 @@
 
         # Show diff
         dc = diff --color-words
+        dw = diff --color-words -w
         ds = diff --color-words --staged
         dstat = diff --color-words --stat
 
