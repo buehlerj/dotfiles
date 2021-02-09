@@ -19,6 +19,9 @@ alias hostfile='edit_hostfile'
 alias gi='grep -i'
 alias gmmd="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\" | xargs git branch --delete; git remote prune origin"
 alias gmmp="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\""
+alias rmnpmi="rm -rf node_modules; npm i"
+
+alias locngs="npm run-script ng serve"
 
 # Note: Don't bother checking SSH_AGENT_PID. It's not used
 #       by SSH itself, and it might even be incorrect
@@ -64,3 +67,7 @@ fi
 
 unset env
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
