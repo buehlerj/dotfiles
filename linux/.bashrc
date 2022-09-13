@@ -19,7 +19,9 @@ alias hostfile='edit_hostfile'
 alias gi='grep -i'
 alias gmmd="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\" | xargs git branch --delete; git remote prune origin"
 alias gmmp="git pull; git branch --merged master | egrep -v \"(^\*|master|dev)\""
-alias rmnpmi="rm -rf node_modules; npm i"
+alias rmnpmi="rm -rf node_modules; npm cache verify; npm i"
+alias bashrc="npp ~/.bashrc"
+alias gitconfig="npp ~/.gitconfig"
 
 alias locngs="npm run-script ng serve"
 
@@ -60,9 +62,9 @@ fi
 # to paste the proper path after ssh-add
 if ! agent_is_running; then
     agent_start
-    ssh-add ~/.ssh/id_rsa
+    ssh-add ~/.ssh/id_ed25519
 elif ! agent_has_keys; then
-    ssh-add ~/.ssh/id_rsa
+    ssh-add ~/.ssh/id_ed25519
 fi
 
 unset env
